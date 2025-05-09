@@ -95,3 +95,83 @@ footer{
 .redesSociais ul{
     display: flex;
 }
+
+#cabecalhoDemaisPaginas nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(223, 121, 5, 0.767);
+}
+ #cabecalhoDemaisPaginas nav ul li a{
+    text-decoration: none;
+    color:#f3f3f3;
+    font-weight: 1000;
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+}
+#cabecalhoDemaisPaginas nav ul li a:hover{
+    color:rgb(197, 197, 197);
+}
+
+/* Estilizando o formulário */
+.contato {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    background-color: #fff;
+}
+
+.form article.control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+    font-family: Oswald, sans-serif;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #24ac17;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #57c219;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #358d0d;
+}
+
+#tituloContato{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    padding-top: 100px;
+    font-family: Oswald, sans-serif;
+    
+}

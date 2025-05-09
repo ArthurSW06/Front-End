@@ -30,19 +30,25 @@ header nav ul{
     list-style: none;
     display: flex;
     gap:20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 header nav ul li a{
     text-decoration: none;
     color:#f3f3f3;
-    font-weight: 600;
+    font-weight: 1000;
     font-family: Oswald, sans-serif;
+    font-size: 20px;
 }
 header nav ul li a:hover{
-    color:rgb(94, 12, 226);
+    color:rgb(197, 197, 197);
+}
+
 footer{
     background: rgba(223, 121, 5, 0.767); 
     color:#0a0000;
-    padding: 10px 0;
+    padding: 0px;
     margin-top: auto;
     font-family: Oswald, sans-serif;
 }

@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -27,6 +28,56 @@ ul {
 
 li {
     margin: 0 15px;
+}
+#inicio{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 4s ease-in-out;
+}
+#titulo{
+    background-image: linear-gradient(to right,black,white);
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation:efeito 2s ease-in-out ;
+}
+
+#texto{
+    font-size: 2rem;
+    animation: efeito 4s ease-in-out;
+    opacity: 0;
+    background-image: linear-gradient(to right,black,white);
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@keyframes efeito {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.inicio{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
 }
 
 
